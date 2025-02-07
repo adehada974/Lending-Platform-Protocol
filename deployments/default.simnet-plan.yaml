@@ -55,6 +55,11 @@ plan:
             path: contracts/Lending-Platform-Protocol.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: collateral-management
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/collateral-management.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: interest-rate-model
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/interest-rate-model.clar
