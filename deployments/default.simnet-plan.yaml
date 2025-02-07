@@ -60,6 +60,11 @@ plan:
             path: contracts/collateral-management.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: credit-scoring
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/credit-scoring.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: interest-rate-model
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/interest-rate-model.clar
